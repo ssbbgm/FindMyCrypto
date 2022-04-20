@@ -40,18 +40,6 @@ Then I see a form to enter contact information
 CoinBase, CoinGecko, NewsData.io, CryptoCompare
 
 
-## Help
-If running into probloms plese contact Me "Oscar Salagdo" and i will get back to you as soon as I can:
-- Email: Oscar.cdbs@gmail.com
-- GitHub: Plavala
-- Slack: oscar salgado U033Z9KFUG1
-- Phone: 678-360-8508
-
-## License
-- Project licence: MIT Licence
-- This Repository: Oscar Salagdo
-- Built with: VScode
-
 ## Contributors: 
 - Sherreka Burton
 - Xavier Leonard
