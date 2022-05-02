@@ -94,6 +94,34 @@ html, body {
     display: flex;
     justify-self: stretch;
     justify-content: space-between;
+    /* animation-name: card;
+    animation-duration: 10s;
+    animation-fill-mode: both;
+    animation-delay: 0ms;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; */
+
+}
+
+/* Animation  */
+
+.animate {
+    width: 200%;
+    animation: marquee 20s linear infinite;
+    top: 100%;
+}
+.animate:hover {
+    animation-play-state: paused;
+}
+
+@keyframes marquee {
+    0% { left: 0%;}
+    100%{ left: -100%;}
+}
+
+@keyframes card {
+    from{ transform: translateX(-100px)}
+    to{transform: translateX(1500px)}
 }
 
 
