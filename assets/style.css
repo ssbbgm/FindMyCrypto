@@ -436,5 +436,10 @@ text-transform: uppercase;
 
 }
 
-
+@media (max-width: 880px) {
+    .feature-article {
+        display: flex;
+        flex-direction: column;
+    }
+}
 
