@@ -14,7 +14,7 @@ const getCryptoData = async () => {
         var convertedPrice = amount / data[key].USD;
         tag = document.createElement("p");
         tag.setAttribute("class", "calc-info");
-        tag.innerHTML = "You can buy " + convertedPrice + " share of " + key;
+        tag.innerHTML = "You can buy " + convertedPrice.toFixed(8) + " share of " + key;
         mainCon.appendChild(tag);
         console.log(convertedPrice);
       }
