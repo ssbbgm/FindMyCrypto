@@ -143,7 +143,7 @@ function getExchangeFeed() {
 
           name.textContent = data[i].name;
           price.textContent = '$ ' + currentPrice;
-          priceChange.textContent = '$' + pChange.toFixed(2) + '(' + PercentageChange.toFixed(2) + '%)';
+          priceChange.textContent = '$' + pChange.toFixed(2) + ' (' + PercentageChange.toFixed(2) + '%)';
       
           
           
