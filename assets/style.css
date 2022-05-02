@@ -441,5 +441,9 @@ text-transform: uppercase;
         display: flex;
         flex-direction: column;
     }
+
+    .media-section {
+        width: 100%;
+    }
 }
 
