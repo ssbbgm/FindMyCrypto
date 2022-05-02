@@ -130,7 +130,7 @@ function getExchangeFeed() {
           
       
           
-          var currentPrice = data[i].current_price;
+          var currentPrice = data[i].current_price.toFixed(2);
           var pChange = data[i].price_change_24h;
           var PercentageChange = data[i].price_change_percentage_24h;
           

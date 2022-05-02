@@ -119,10 +119,10 @@ html, body {
     100%{ left: -100%;}
 }
 
-@keyframes card {
+/* @keyframes card {
     from{ transform: translateX(-100px)}
     to{transform: translateX(1500px)}
-}
+} */
 
 
 
