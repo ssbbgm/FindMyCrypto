@@ -16,9 +16,9 @@ function getNewsFeed(){
         console.log(data)
 
 
-          for(var i = 0; i < 6;i++){
+          for(var i = 0; i < 5;i++){
 
-          for(var i = 1; i < 6;i++){
+          for(var i = 1; i < 5;i++){
 
             console.log(data.results)
             var hyperlink = document.createElement('a')
@@ -83,7 +83,7 @@ function getExchangeFeed() {
       })
 
       .then(function(data) {
-        for(var i = 0; i < 6; i++) {
+        for(var i = 0; i < 5; i++) {
          
           
           //Style for market Boxes at top of screen
