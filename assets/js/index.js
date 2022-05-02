@@ -177,9 +177,9 @@ function getExchangeFeed() {
           var name = document.createElement('h6');
           name.textContent = data[j].name;
           var currentPrice = document.createElement('p');
-          currentPrice.textContent = '$' + data[j].current_price.toFixed(3);
+          currentPrice.textContent = '$' + data[j].current_price.toFixed(2);
           var percentageChange = document.createElement('p');
-          percentageChange.textContent = '$' + data[j].price_change_24h.toFixed(3) + '(' + data[j].price_change_percentage_24h + ')' + '%';
+          percentageChange.textContent = '$' + data[j].price_change_24h.toFixed(2) + ' (' + data[j].price_change_percentage_24h.toFixed(2) + ')' + '%';
          
           
           cardSection.append(row);
