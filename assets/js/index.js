@@ -193,5 +193,6 @@ function getExchangeFeed() {
 
 }
 
-getExchangeFeed()
-
+getExchangeFeed();
+getExchangeFeed();
+getExchangeFeed();
