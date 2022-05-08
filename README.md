@@ -37,7 +37,7 @@ Then I see a form to enter contact information
 
 ## APIs USED 
 
-CoinBase, CoinGecko, NewsData.io, CryptoCompare
+CoinBase, CoinGecko, NewsData.io, CryptoCompare.
 
 
 ## Contributors: 
